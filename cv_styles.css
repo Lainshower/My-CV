@@ -1,0 +1,62 @@
+header {
+	color: black;
+	text-decoration: underline;
+	text-align: center;
+	font-style: oblique;
+	font-size: 40px;
+	padding-bottom: 20px;
+}
+body{
+	margin: 15px;
+	height: 100vh;
+	background-color: ghostwhite;
+}
+.body{
+	display: flex;
+	flex-direction: column;
+	align-items: center;	
+}
+.topicbox {
+	margin: 10px 10px;
+	width: 1100px;
+	background-color: ghostwhite;
+	border: 0.3px solid black;
+}
+footer{
+	margin-top: 5px;
+	max-width: 200px;
+	position: relative;
+	left: 10px
+}
+.topic {
+	font-size: 20px;
+	font-weight: bold;
+	padding : 5px 3px;
+	display: box;
+}
+.sub_topic {
+	font-size: 18px;
+	padding : 3px 2px;
+	display: block;
+}
+.description{
+	font-size:: 15px;
+	margin : 1.5px 3px;
+	display: block;
+}
+.details{
+
+}
+a{
+	text-decoration: none;
+}
+
+a[href^="mailto"]::before {
+	content: "📧 ";
+	display: inline-block;
+      }
+  
+a[href^="tel"]::before {
+	content: "📞 ";
+	display: inline-block;
+      }
